@@ -62,7 +62,7 @@
                        :release {:source-paths ["src/cljs"]
                                  :compiler {:output-to "resources/public/js/release.js"
                                             :output-dir "resources/public/js/release"
-                                            :preamble ["license.js" "public/element.js"]
+                                            :preamble ["license.js" "CustomElements.min.js" "public/element.js"]
                                             :optimizations :advanced
                                             :pretty-print  false}}}}
 
